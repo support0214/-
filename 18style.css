@@ -1,0 +1,39 @@
+/* 전체 */
+* {margin: 0 auto; padding: 0; list-style: none; text-decoration: none; color: black;}
+a {color: inherit;}
+a:hover {color: inherit;}
+body {width: 1000px;}
+
+/* 헤더 */
+header {height: 150px;}
+header>div {float: left;}
+header>div>img{width: 150px; margin-top: 40px;}
+header>nav {float: right; margin-top: 30px; padding: 10px;}
+.nav {width: 600px; height: 20px;}
+.nav>li {float: left; width: 200px; text-align: center; padding: 5px 0; position: relative;}
+.nav>li:hover {background-color: darkblue; color: white;}
+.submenu {display: none; position: absolute; width: 100%; margin-top: 5px; z-index: 1;}
+.submenu>li {padding: 5px 0 ;background-color: rgba(255,255,255, 0.3); z-index: 2;}
+.submenu>li:hover {background-color: rgb(83,83,136); color: white;}
+
+/* 본문이미지 */
+#imgslide {clear: both; height: 362px; position: relative; overflow: hidden;}
+#imgslide>img {position: absolute; display: flex;}
+
+/* 본문 내용 */
+.notice{width: 500px; float: left;}
+.color{background-color: gainsboro; line-height: 30px;}
+.color1{background-color: white; line-height: 30px;}
+.notice>h2{text-align: center; color: grey; line-height: 35px; height: 35px;}
+
+.partner{float: right;}
+.partner>h2{text-align: center; color: grey; line-height: 35px; height: 35px; padding-bottom: 20px;}
+
+.icon{text-align: center; clear: both;}
+.imgbtn{display: inline-block; margin: 25px;}
+
+footer{background-color: beige; height: 150px; text-align: center;}
+footer>ul>li{float: left; margin-left: 20px; font-size: 15px; margin-top: 75px;}
+footer>p{float: right; text-align: left; line-height: 20px; height: 20px; margin-right: 18%; margin-top: 25px;}
+
+.imgbtn>button{width: 125px; height: 35px; border-radius: 20px; background-color: cornflowerblue; color: white;}
